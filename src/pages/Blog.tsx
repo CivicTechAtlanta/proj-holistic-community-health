@@ -62,7 +62,7 @@ function Blog() {
               <div className="blog-details">
                 <h3>{post.title}</h3>
                 <p className="blog-date">
-                  <strong>Posted:</strong> {formatDate(post.event_date)}
+                  <strong>Posted:</strong> {formatDate(post.created_at)}
                 </p>
               </div>
             </div>
